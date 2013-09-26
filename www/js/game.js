@@ -21,7 +21,7 @@ $(document).ready(function(){
 		}
 	});
 	
-	$('td.cel-game').click(function(){ alert('clicou');
+	$('td.cel-game').click(function(){
 		var thisValue = $(this).html();
 		
 		if(thisValue == 'dog' || thisValue == 'cat'){
