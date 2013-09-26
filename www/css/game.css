@@ -1,0 +1,42 @@
+div#play-game{
+	display: none;
+	width: 100%;
+}
+
+ul li{
+	list-style: none;
+	display: inline-block;
+	width: 130px;
+	height: 130px;
+	text-indent: -9999px;
+}
+
+li#cat{
+	background: url('../img/cat.png') no-repeat;
+}
+
+li#dog{
+	background: url('../img/dog.png') no-repeat;
+}
+
+ul li.selected-char{
+	background-color: #000 !important;
+}
+
+table.board-game{
+	width: 100%;
+}
+
+table.board-game tr{
+	height: 5em;
+}
+
+table.board-game tr td{
+	display: inline-block;
+	height: 100%;
+	width: 32%;
+}
+
+table.board-game tr.line-one td, tr.line-two td{
+	border-bottom: 10px solid #000; 
+}
